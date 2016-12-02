@@ -45,7 +45,7 @@ bool TabBarPlus::_isDbClk2Close = false;
 bool TabBarPlus::_isCtrlVertical = false;
 bool TabBarPlus::_isCtrlMultiLine = false;
 
-COLORREF TabBarPlus::_activeTextColour = ::GetSysColor(COLOR_BTNTEXT);
+COLORREF TabBarPlus::_activeTextColour = ::GetSysColor(COLOR_BTNTEXT); //Potential area of code to operate on when doing tab colour feature
 COLORREF TabBarPlus::_activeTopBarFocusedColour = RGB(250, 170, 60);
 COLORREF TabBarPlus::_activeTopBarUnfocusedColour = RGB(250, 210, 150);
 COLORREF TabBarPlus::_inactiveTextColour = grey;
